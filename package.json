@@ -1,0 +1,16 @@
+{
+  "name": "thermal-printer",
+  "version": "1.0.0",
+  "description": "Termal yazıcı ile rezervasyon fişleri yazdırma",
+  "main": "print_thermal.js",
+  "scripts": {
+    "print": "node print_thermal.js",
+    "print-today": "node print_thermal.js",
+    "print-date": "node print_thermal.js"
+  },
+  "dependencies": {
+    "escpos": "^3.0.0-alpha.6",
+    "escpos-network": "^0.0.6",
+    "node-fetch": "^2.6.7"
+  }
+}
